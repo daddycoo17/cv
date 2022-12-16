@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ranjeet's site</title>
+</head>
+
+<body>
+    <img src="https://imgs.search.brave.com/qm_EKEW7big7T3jWFxjuutSuOyRS99LUeYSGy5am-8A/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC41/NERDTFItNmw5REQ2/eTlES2hGYVZ3SGFF/SyZwaWQ9QXBp" alt="RANJEET">
+    <h1>Ranjeet Singh</h1><!--we can also use b or strong tag to make the text bold-->
+    <p><em>The founder,owner and <strong>CEO</strong> of this website.</em><!--or u can use i in place of em--></p>
+    <p>I am a web developer & this website is owned by me.</p>
+    <hr><!--used to create a horizontal rule line-->
+    <h3>Education</h3>
+    <ul>
+        <li>Matriculate:<a href="https://en.wikipedia.org/wiki/St._Xavier's_English_School,_Chakradharpur">St Xavier's English school</a></li>
+        <li>Intermediate:<a href="https://kvsangathan.nic.in/kvs-hierarchical/kendriya-vidyalaya-chakradharpur">Kendriya Vidyalaya</a></li>
+        <li>Under Gaduate:<a href="https://www.bitsindri.ac.in">BIT Sindri</a></li>
+    </ul>
+    <h3>Work Experience</h3>
+    <table border="1"><!--but using border in html is not recomended so don't use it,we will learn this in css-->
+        <thead>
+        <tr>
+            <th>Dates</th>
+            <th>work</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2008-2019</td>
+                <td>St Xavier's school</td>
+            </tr>
+            <tr>
+                <td>2019-2020</td>
+                <td>Kendriya Vidyalaya</td>
+            </tr>
+            <tr>
+                <td>2021-till date</td>
+                <td>BIT Sindri</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+     <hr>   
+    </table>
+    <h3>My Skills</h3>
+    <table cellspaing="10">
+        <tr>
+            <td>Web developement</td>
+            <td>🌟🌟🌟🌟</td>
+        </tr>
+        <tr>
+            <td>Photography</td>
+            <td>🌟🌟🌟</td>
+        </tr>
+        <tr>
+            <td>Painting</td>
+            <td>🌟🌟🌟</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>My Hobbies</h3>
+    <ol>
+        <li>Playing Games</li>
+        <li>Reading Books</li>
+    </ol>
+    <hr>
+        <h3>To contact me:<a href="know me.html">Click here</a></h3>
+        <hr>
+    </table>
+    <form class="" action="new.html" method="post"></form>
+    <h3>Your Details</h3>
+    <table cellspaing="10">
+        <tr>
+            <td><label>Your Name:</label></td>
+            <td><input type="text" id="name" name="name"><!--for fied length required minlength="4" maxlength="8" size="10"--></td>
+        </tr>
+        <tr>
+            <td><label for="start">Date of Birth:</label></td>
+            <td><input type="date" id="start" name="trip-start" value="2018-07-22"></td>
+        </tr>
+        <tr>
+            <td><label>Do you want to sign up to the email list:</label></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" pattern=".+@globex\.com" size="30" required></td>
+        </tr>
+        <tr>
+            <td><label>Password:</label></td>
+            <td><input type="text"> <input type="submit"></td>
+        </tr>
+        <tr>
+            <td><label for="tentacles">Enter your age:</label></td>
+            <td><input type="number" id="tentacles" name="tentacles"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Enter your phone number:</label></td>
+            <td><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required><!--<small>Format: 123-456-7890</small>--></td>
+        </tr>
+        <tr>
+            <td><label for="avatar">Enter your signature(jpeg format):</label></td>
+            <td><input type="file"id="avatar" name="avatar" accept="image/png, image/jpeg"></td>
+        </tr>
+        <tr>
+            <td><label for="url">Enter an https:// URL(if any):</label></td>
+            <td><input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required></td>
+        </tr>
+        <tr>
+            <td><label>Your Message:</label></td>
+            <td><textarea type="name" rows="10" cols="30"></textarea></td>
+            <td><input type="submit" name=""></td>
+        </tr>
+    </form>
+</body>
+</html> 
